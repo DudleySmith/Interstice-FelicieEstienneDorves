@@ -4,6 +4,8 @@ import sys
 from pythonosc.dispatcher import Dispatcher
 from pythonosc.osc_server import BlockingOSCUDPServer
 
+from adafruit_servokit import ServoKit
+
 #setup Logging
 logging.basicConfig(
 filename='ReceiveOSCSendI2C.log',
@@ -13,6 +15,8 @@ level=logging.DEBUG)
 
 logging.info('Start OSC -> I2C : ')
 logging.info('===========================================\n')
+
+kit = ServoKit(channels=16)
 
 
 # Control the motors
@@ -67,7 +71,9 @@ def servoControl(number, value):
 
     # Print and wait for the real stuff
     print("Controlling servo [" + number + "] with angle = " + str(value))
-
+    
+    kit.servo[0].angle = value;
+    
 # ------------------------------------------------
 
 # Default message catch
