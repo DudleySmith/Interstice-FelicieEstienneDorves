@@ -82,7 +82,7 @@ dispatcher = Dispatcher()
 dispatcher.map("/control/*", getControl)
 dispatcher.set_default_handler(default_handler)
 
-ip = "127.0.0.1"
+ip = "192.168.0.101"
 port = 9000
 
 server = BlockingOSCUDPServer((ip, port), dispatcher)
