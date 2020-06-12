@@ -1,5 +1,6 @@
 import logging
 import sys
+import threading
 
 from pythonosc.dispatcher import Dispatcher
 from pythonosc.osc_server import BlockingOSCUDPServer
@@ -34,39 +35,13 @@ def getControl(address, *args):
 
     if(addrElements[-1] in {"servo","motor"}):
         # SERVO ========================================================
-        servoControl(number, value)
-        I2CControl.send(number, value)
+        mySendThread = threading.Thread(target=I2CControl.send(number, value))
+        mySendThread.start()
 
     else:
         # OTHER ========================================================
         print(f"Control unknown {address}: {args}")
         logging.info(f"Control unknown {address}: {args}")
-
-# ------------------------------------------------
-
-# Control the motors
-# Arguments attendus
-# 1 : String : Numéro du moteur
-# 2 : Value : Valeur de vitesse
-# ++++++++++++++++++++++++++++++++++++++++++++++++
-def motorControl(number, value):
-
-    # Print and wait for the real stuff
-    print("Controlling motor [" + number + "] with speed = " + str(value))
-
-# ------------------------------------------------
-
-
-# Control the servos
-# Arguments attendus
-# 1 : String : Numéro du servo
-# 2 : Value : Valeur d'angle
-# ++++++++++++++++++++++++++++++++++++++++++++++++
-def servoControl(number, value):
-
-    # Print and wait for the real stuff
-    print("Controlling servo [" + number + "] with angle = " + str(value))
-# ------------------------------------------------
 
 # Default message catch
 # ++++++++++++++++++++++++++++++++++++++++++++++++
@@ -85,18 +60,19 @@ I2CControl.printControls()
 
 # Init server ------------------------------------
 try:
-    #ip = "192.168.0.101"
-    ip = "127.0.0.1"
-    port = 9000
-    server = BlockingOSCUDPServer((ip, port), dispatcher)
+#     ip = "192.168.0.101"
+#     port = 9000
+#     server = BlockingOSCUDPServer((ip, port), dispatcher)
+# 
+#     logging.info('Launch server OSC ' + ip + ":" + str(port))
+# 
+#     print("Server started ++")
+#     server.serve_forever()  # Blocks forever
 
-    logging.info('Launch server OSC ' + ip + ":" + str(port))
 
-    print("Server started ++")
-    server.serve_forever()  # Blocks forever
 
 except OSError as e:
-    print("Wrong addres ??? : {0}".format(e))
+    print("Wrong address ??? : {0}".format(e))
 
 except:
     print("Error : {0}".format(e))

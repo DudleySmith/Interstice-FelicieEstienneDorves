@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Clock
+Exec=xterm -hold -e '/usr/bin/python3 /home/pi/Interstice-FelicieEstienneDorves/Scripts/ReceiveOSCSendI2C.py'
+Name[fr_FR]=ReceiveOSCSendI2C

@@ -4,6 +4,42 @@
 # Each control is a Board Address + a channel number
 #
 
+# import circuit python
+from board import SCL, SDA
+import busio
+
+# Import the PCA9685 module.
+from adafruit_pca9685 import PCA9685
+from adafruit_motor import servo
+
+import time
+
+# Bus
+i2c = busio.I2C(SCL, SDA)
+try:
+    # All boards
+    boards = {
+    "0x40":PCA9685(i2c, address=0x40), # Board 0 : Servos
+    "0x41":PCA9685(i2c, address=0x41), # Board 1 : Servos
+    "0x42":PCA9685(i2c, address=0x42), # Board 2 : Servos
+    "0x43":PCA9685(i2c, address=0x43), # Board 3 : Motors
+    "0x44":PCA9685(i2c, address=0x44)  # Board 4 : Motors
+    }
+    
+    # set all the same frequency
+    for key, board in boards.items():
+        board.frequency = 50
+    
+    # Resume board initialization
+    for key, board in boards.items():
+        print("board ", key, " : Address {0}".format(board))
+    
+except Exception as e:
+    print("Something went wrong when initializing boards, are they all plugged ?")
+    print("Try command : i2cdetect -y 1")
+    print("You should see Address reserved from 40 to 44")
+    print("{0}".format(e))
+    
 # For test and/pr check, print all informations
 def printControls():
     print("\nI'm logging all servos settings (as dictionnary)")
@@ -51,7 +87,53 @@ class Servo(I2CControl):
     def send(self, value):
         # Control as a Servo
         print("Controlling servo [" + format(hex(self.cardAddr)) + ":" + format(self.channelNr) + "] with angle = " + str(value))
+        
+        myCardAddr = hex(self.cardAddr)
+        if(boards.get(myCardAddr)):
+            
+            print("Board found ++++++++++++++")
+            #specific pulse range ---
+            try:
+                
+                # initiate servo variable
+                theServo = servo.Servo(boards[myCardAddr].channels[0], min_pulse=50, max_pulse=2500)
+                
+                newAngle = (value/270.0) * 180
+                stepAngle = 1
+                cmdAngle = theServo.angle
+                if(cmdAngle < 0):
+                    cmdAngle = 0
+                
+                print("floatValue = {0}".format(value), " Angle desired= {0}".format(newAngle), " Actual angle= {0}".format(cmdAngle))
+                
+                if newAngle > cmdAngle:
+                    # Increase
+                    while cmdAngle < newAngle:
+                        print("passing command of angle {0}".format(cmdAngle), " Servo Angle={0}".format(theServo.angle), " Step is {0}".format(stepAngle))
+                        theServo.angle = cmdAngle
+                        cmdAngle += stepAngle
+                        
+                elif newAngle < cmdAngle:
+                    # Increase
+                    while cmdAngle > newAngle:
+                        print("passing command of angle {0}".format(cmdAngle), " Servo Angle={0}".format(theServo.angle), " Step is {0}".format(stepAngle))
+                        theServo.angle = cmdAngle
+                        cmdAngle -= stepAngle
+                        
+                else:
+                    theServo.angle = newAngle
+                    print("no command of angle {0}".format(cmdAngle), " Servo Angle={0}".format(theServo.angle), " Step is {0}".format(stepAngle))
+                    
+                theServo.angle = newAngle
 
+            except Exception as e:
+                print(format(e))
+            
+            except:
+                pass
+                    
+        else:
+            print("No board matching --------")
 # -----------------------------------------------------------------------
 # MOTOR class
 # Value is a speed value and use another lib
