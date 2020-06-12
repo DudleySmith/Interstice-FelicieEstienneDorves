@@ -37,6 +37,7 @@ def getControl(address, *args):
 
     if(addrElements[-1] in {"servo","motor"}):
         # SERVO ========================================================
+        #I2CControl.send(number, value)
         mySendThread = threading.Thread(target=I2CControl.send(number, value))
         mySendThread.start()
 
@@ -62,8 +63,9 @@ I2CControl.printControls()
 
 # Init server ------------------------------------
 try:
-#     ip = "192.168.0.101"
-#     port = 9000
+    ip = "192.168.0.101"
+    port = 9000
+    
 #     server = BlockingOSCUDPServer((ip, port), dispatcher)
 #
 #     logging.info('Launch server OSC ' + ip + ":" + str(port))
@@ -73,9 +75,12 @@ try:
 
     async def loop():
         """Example main loop that only runs for 10 iterations before finishing"""
-        for i in range(10):
-            print(f"Loop {i}")
-            await asyncio.sleep(1)
+#         for i in range(10):
+#             print(f"Loop {i}")
+#             await asyncio.sleep(1)
+        
+        while True:
+            await asyncio.sleep(0)
 
 
     async def init_main():

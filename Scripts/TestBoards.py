@@ -17,16 +17,26 @@ i2c = busio.I2C(SCL, SDA)
 # Create a simple PCA9685 class instance.
 # Board 0 ------------------------------
 pca0 = PCA9685(i2c)
-pca0.frequency = 50
+pca0.frequency = 330
 #specific pulse range ---
 servo0_7 = servo.Servo(pca0.channels[0], min_pulse=50, max_pulse=2500)
 
-for i in range(269):
+for i in range(60):
     servo0_7.angle = i
-    print("angle command {0}".format(i))
-    print("angle servo   {0}".format(servo0_7.angle))
     time.sleep(0.01)
-for i in range(270):
+
+time.sleep(1)
+for i in range(60,120):
+    servo0_7.angle = i
+    time.sleep(0.01)
+
+time.sleep(1)
+for i in range(120,180):
+    servo0_7.angle = i
+    time.sleep(0.01)
+
+time.sleep(1)
+for i in range(180):
     servo0_7.angle = 180 - i
     time.sleep(0.01)
     

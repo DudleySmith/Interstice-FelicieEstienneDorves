@@ -91,32 +91,36 @@ class Servo(I2CControl):
         myCardAddr = hex(self.cardAddr)
         if(boards.get(myCardAddr)):
             
-            print("Board found ++++++++++++++")
+            #print("Board found ++++++++++++++")
             #specific pulse range ---
             try:
                 
                 # initiate servo variable
-                theServo = servo.Servo(boards[myCardAddr].channels[0], min_pulse=50, max_pulse=2500)
+                theServo = servo.Servo(boards[myCardAddr].channels[self.channelNr], min_pulse=50, max_pulse=2500)
                 
                 newAngle = (value/270.0) * 180
-                stepAngle = 1
+                stepAngle = 0.25
                 cmdAngle = theServo.angle
+                
+                # Check out of range values
                 if(cmdAngle < 0):
                     cmdAngle = 0
+                if(cmdAngle > 180):
+                    cmdAngle = 180
                 
-                print("floatValue = {0}".format(value), " Angle desired= {0}".format(newAngle), " Actual angle= {0}".format(cmdAngle))
+                #print("floatValue= {0}".format(value), " Angle desired= {0}".format(newAngle), " Actual angle= {0}".format(cmdAngle))
                 
                 if newAngle > cmdAngle:
                     # Increase
                     while cmdAngle < newAngle:
-                        print("passing command of angle {0}".format(cmdAngle), " Servo Angle={0}".format(theServo.angle), " Step is {0}".format(stepAngle))
+                        #print("passing command of angle {0}".format(cmdAngle), " Servo Angle={0}".format(theServo.angle), " Step is {0}".format(stepAngle))
                         theServo.angle = cmdAngle
                         cmdAngle += stepAngle
                         
                 elif newAngle < cmdAngle:
-                    # Increase
+                    # Decrease
                     while cmdAngle > newAngle:
-                        print("passing command of angle {0}".format(cmdAngle), " Servo Angle={0}".format(theServo.angle), " Step is {0}".format(stepAngle))
+                        #print("passing command of angle {0}".format(cmdAngle), " Servo Angle={0}".format(theServo.angle), " Step is {0}".format(stepAngle))
                         theServo.angle = cmdAngle
                         cmdAngle -= stepAngle
                         
@@ -135,14 +139,34 @@ class Servo(I2CControl):
         else:
             print("No board matching --------")
 # -----------------------------------------------------------------------
+
+
+# -----------------------------------------------------------------------
 # MOTOR class
 # Value is a speed value and use another lib
 class Motor(I2CControl):
     def toString(self):
         return "Motor [" + format(hex(self.cardAddr)) + ":" + format(self.channelNr) + "]"
 
-    def send(self, value):
-        print("Controlling motor [" + format(hex(self.cardAddr)) + ":" + format(self.channelNr) + "] with speed = " + str(value))
+    def send(self, floatValue):
+        print("Controlling motor [" + format(hex(self.cardAddr)) + ":" + format(self.channelNr) + "] with speed = " + str(floatValue))
+        
+        myCardAddr = hex(self.cardAddr)
+        if(boards.get(myCardAddr)):
+            
+            #specific pulse range ---
+            try:
+                # simple multiplication
+                boards[myCardAddr].channels[self.channelNr].duty_cycle = int(floatValue * float(0xFFFF))
+            
+            except Exception as e:
+                print(format(e))
+            
+            except:
+                pass
+        else:
+            print("No boards matching")
+# -----------------------------------------------------------------------
 
 
 # # -------------------------------------------------------------------
