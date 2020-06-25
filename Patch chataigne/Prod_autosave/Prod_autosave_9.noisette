@@ -12,26 +12,44 @@
   "layout": {
     "mainLayout": {
       "type": 1,
+<<<<<<< HEAD
       "width": 1373,
       "height": 896,
+=======
+      "width": 1327,
+      "height": 910,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
       "direction": 2,
       "shifters": [
         {
           "type": 1,
+<<<<<<< HEAD
           "width": 1373,
           "height": 896,
+=======
+          "width": 1327,
+          "height": 910,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
           "direction": 1,
           "shifters": [
             {
               "type": 1,
               "width": 174,
+<<<<<<< HEAD
               "height": 896,
+=======
+              "height": 910,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "direction": 2,
               "shifters": [
                 {
                   "type": 0,
                   "width": 174,
+<<<<<<< HEAD
                   "height": 615,
+=======
+                  "height": 622,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "currentContent": "Sequences",
                   "tabs": [
                     {
@@ -42,7 +60,11 @@
                 {
                   "type": 0,
                   "width": 174,
+<<<<<<< HEAD
                   "height": 275,
+=======
+                  "height": 282,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "currentContent": "Modules",
                   "tabs": [
                     {
@@ -54,8 +76,13 @@
             },
             {
               "type": 0,
+<<<<<<< HEAD
               "width": 817,
               "height": 896,
+=======
+              "width": 771,
+              "height": 910,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "currentContent": "Sequence Editor",
               "tabs": [
                 {
@@ -66,7 +93,11 @@
             {
               "type": 0,
               "width": 370,
+<<<<<<< HEAD
               "height": 896,
+=======
+              "height": 910,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "currentContent": "Inspector",
               "tabs": [
                 {
@@ -135,6 +166,7 @@
             }
           }
         },
+<<<<<<< HEAD
         "templates": {
           "items": [
             {
@@ -213,6 +245,8 @@
             }
           ]
         },
+=======
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
         "values": {
         }
       },
@@ -236,7 +270,10 @@
             }
           }
         },
+<<<<<<< HEAD
         "audioSettings": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<DEVICESETUP deviceType=\"CoreAudio\" audioOutputDeviceName=\"UMC1820\" audioInputDeviceName=\"\"\r\n             audioDeviceRate=\"96000.0\" audioDeviceOutChans=\"11111\"/>\r\n",
+=======
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
         "analyzer": {
           "parameters": [
             {
@@ -316,7 +353,11 @@
                   {
                     "parameters": [
                       {
+<<<<<<< HEAD
                         "value": 0.2296442985534668,
+=======
+                        "value": 0.1161699295043945,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                         "controlAddress": "/startTime"
                       },
                       {
@@ -324,7 +365,11 @@
                         "controlAddress": "/isActive"
                       },
                       {
+<<<<<<< HEAD
                         "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
+=======
+                        "value": "/Users/sebastien_albert/Dropbox/2 - Projets/2020.02.25 Interstice/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -337,11 +382,19 @@
               "channels": {
                 "parameters": [
                   {
+<<<<<<< HEAD
                     "value": false,
                     "controlAddress": "/channelOutLeft"
                   },
                   {
                     "value": false,
+=======
+                    "value": true,
+                    "controlAddress": "/channelOutLeft"
+                  },
+                  {
+                    "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                     "controlAddress": "/channelOutRight"
                   }
                 ]
@@ -351,7 +404,11 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
+=======
+                  "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -377,7 +434,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -390,11 +451,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -522,11 +591,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -644,7 +721,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoB2/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -669,11 +750,19 @@
                   "controlAddress": "/miniMode"
                 },
                 {
+<<<<<<< HEAD
                   "value": 101.0,
                   "controlAddress": "/listSize"
                 },
                 {
                   "value": 133,
+=======
+                  "value": 0.0,
+                  "controlAddress": "/listSize"
+                },
+                {
+                  "value": 32,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -687,7 +776,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5187970399856567,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -700,11 +793,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5187970399856567,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -722,6 +823,7 @@
                       "controlAddress": "/range",
                       "enabled": true
                     }
+<<<<<<< HEAD
                   ],
                   "items": [
                     {
@@ -790,6 +892,8 @@
                       },
                       "type": "Key"
                     }
+=======
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   ]
                 },
                 "recorder": {
@@ -821,6 +925,7 @@
                   "filters": {
                   },
                   "outputs": {
+<<<<<<< HEAD
                     "items": [
                       {
                         "niceName": "MappingOutput",
@@ -870,6 +975,9 @@
                         }
                       }
                     ]
+=======
+                    "editorIsCollapsed": true
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   }
                 }
               },
@@ -886,7 +994,11 @@
                   "controlAddress": "/miniMode"
                 },
                 {
+<<<<<<< HEAD
                   "value": 88.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/listSize"
                 },
                 {
@@ -897,7 +1009,11 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
+<<<<<<< HEAD
                   "value": 120,
+=======
+                  "value": 32,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -911,7 +1027,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -924,11 +1044,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -1040,10 +1168,13 @@
                 "recorder": {
                   "parameters": [
                     {
+<<<<<<< HEAD
                       "value": true,
                       "controlAddress": "/arm"
                     },
                     {
+=======
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "value": false,
                       "controlAddress": "/isRecording"
                     }
@@ -1081,11 +1212,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -1203,7 +1342,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoC2/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -1220,7 +1363,11 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
+=======
+                  "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -1266,7 +1413,11 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
+=======
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/position"
                     },
                     {
@@ -1319,6 +1470,7 @@
                   "filters": {
                   },
                   "outputs": {
+<<<<<<< HEAD
                     "items": [
                       {
                         "niceName": "MappingOutput",
@@ -1368,6 +1520,8 @@
                         }
                       }
                     ]
+=======
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   }
                 }
               },
@@ -1376,7 +1530,11 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
+=======
+                  "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -1409,7 +1567,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -1422,11 +1584,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -1575,11 +1745,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -1612,15 +1790,25 @@
                                   "parameters": [
                                     {
                                       "value": [
+<<<<<<< HEAD
                                         0.2924528419971466,
                                         0.1614583432674408
+=======
+                                        0.2861635088920593,
+                                        0.1770833432674408
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                       ],
                                       "controlAddress": "/anchor1"
                                     },
                                     {
                                       "value": [
+<<<<<<< HEAD
                                         -0.2075471580028534,
                                         -0.3385416567325592
+=======
+                                        -0.2138364911079407,
+                                        -0.3229166567325592
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                       ],
                                       "controlAddress": "/anchor2"
                                     }
@@ -1697,7 +1885,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoF2/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -1714,7 +1906,11 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
+=======
+                  "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -1747,7 +1943,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -1760,11 +1960,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -1913,11 +2121,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -2035,7 +2251,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoG2/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -2052,7 +2272,11 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
+=======
+                  "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -2085,7 +2309,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -2098,11 +2326,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -2251,11 +2487,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -2373,7 +2617,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoB3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -2390,7 +2638,11 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
+=======
+                  "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -2423,7 +2675,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -2436,11 +2692,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -2589,11 +2853,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -2711,7 +2983,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoC3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -2728,7 +3004,11 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
+=======
+                  "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -2761,7 +3041,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -2774,11 +3058,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -2927,11 +3219,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -3049,7 +3349,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoD3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -3066,11 +3370,19 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
                   "controlAddress": "/enabled"
                 },
                 {
                   "value": false,
+=======
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/miniMode"
                 },
                 {
@@ -3085,7 +3397,11 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
+<<<<<<< HEAD
                   "value": 32,
+=======
+                  "value": 22,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -3099,7 +3415,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -3112,11 +3432,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -3265,11 +3593,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -3387,7 +3723,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoE3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -3404,11 +3744,19 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
                   "controlAddress": "/enabled"
                 },
                 {
                   "value": false,
+=======
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/miniMode"
                 },
                 {
@@ -3423,7 +3771,11 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
+<<<<<<< HEAD
                   "value": 32,
+=======
+                  "value": 22,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -3437,7 +3789,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -3450,11 +3806,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -3603,11 +3967,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -3725,7 +4097,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoF3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -3742,11 +4118,19 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
                   "controlAddress": "/enabled"
                 },
                 {
                   "value": false,
+=======
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": true,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/miniMode"
                 },
                 {
@@ -3761,7 +4145,11 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
+<<<<<<< HEAD
                   "value": 32,
+=======
+                  "value": 22,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -3775,7 +4163,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -3788,11 +4180,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -4028,11 +4428,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -4150,7 +4558,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoG3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -4167,6 +4579,7 @@
             {
               "parameters": [
                 {
+<<<<<<< HEAD
                   "value": false,
                   "controlAddress": "/enabled"
                 },
@@ -4176,6 +4589,17 @@
                 },
                 {
                   "value": 26.0,
+=======
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/miniMode"
+                },
+                {
+                  "value": 92.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/listSize"
                 },
                 {
@@ -4186,7 +4610,11 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
+<<<<<<< HEAD
                   "value": 58,
+=======
+                  "value": 22,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -4200,7 +4628,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 90.0,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -4213,11 +4645,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -4366,11 +4806,19 @@
                               "controlAddress": "/length"
                             },
                             {
+<<<<<<< HEAD
                               "value": 1.0,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 1.0,
+=======
+                              "value": 0.0,
+                              "controlAddress": "/position"
+                            },
+                            {
+                              "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -4488,7 +4936,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 90.0,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoA4/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -4538,7 +4990,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -4551,11 +5007,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -4733,7 +5197,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoB4/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -4783,7 +5251,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -4796,11 +5268,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -4978,7 +5458,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoC4/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -5028,7 +5512,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -5041,11 +5529,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -5223,7 +5719,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoD4/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -5273,7 +5773,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -5286,11 +5790,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -5468,7 +5980,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoE4/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -5518,7 +6034,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -5531,11 +6051,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -5713,7 +6241,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoF4/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -5763,7 +6295,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -5776,11 +6312,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -5958,7 +6502,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoG4/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -6008,7 +6556,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -6021,11 +6573,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -6203,7 +6763,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoH4/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -6253,7 +6817,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -6266,11 +6834,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -6448,7 +7024,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoA5/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -6498,7 +7078,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -6511,11 +7095,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -6693,7 +7285,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoB5/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -6743,7 +7339,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -6756,11 +7356,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -6938,7 +7546,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoC5/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -6988,7 +7600,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -7001,11 +7617,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -7183,7 +7807,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoD5/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -7233,7 +7861,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -7246,11 +7878,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -7428,7 +8068,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoE5/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -7478,7 +8122,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -7491,11 +8139,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -7673,7 +8329,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoF5/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -7723,7 +8383,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -7736,11 +8400,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -7918,7 +8590,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoG5/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -7968,7 +8644,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -7981,11 +8661,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -8163,7 +8851,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoH5/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -8213,7 +8905,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -8226,11 +8922,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -8408,7 +9112,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoB6/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -8458,7 +9166,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -8471,11 +9183,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -8653,7 +9373,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoC6/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -8703,7 +9427,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -8716,11 +9444,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -8898,7 +9634,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoD6/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -8948,7 +9688,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -8961,11 +9705,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -9143,7 +9895,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoE6/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -9193,7 +9949,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -9206,11 +9966,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -9388,7 +10156,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoF6/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -9438,7 +10210,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -9451,11 +10227,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -9633,7 +10417,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoG6/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -9683,7 +10471,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -9696,11 +10488,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -9878,7 +10678,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoB7/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -9928,7 +10732,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -9941,11 +10749,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -10123,7 +10939,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoC7/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -10173,7 +10993,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -10186,11 +11010,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -10368,7 +11200,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoD7/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -10418,7 +11254,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -10431,11 +11271,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -10613,7 +11461,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoE7/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -10663,7 +11515,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -10676,11 +11532,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -10858,7 +11722,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoF7/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -10908,7 +11776,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -10921,11 +11793,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -11103,7 +11983,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoG7/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -11153,7 +12037,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -11166,11 +12054,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -11348,7 +12244,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoD8/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -11398,7 +12298,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 47.109375,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -11411,11 +12315,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 47.109375,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -11593,7 +12505,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 47.109375,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoE8/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -11643,7 +12559,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -11656,11 +12576,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -11838,7 +12766,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor02/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -11888,7 +12820,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -11901,11 +12837,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -12083,7 +13027,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor03/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -12133,7 +13081,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -12146,11 +13098,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -12328,7 +13288,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor04/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -12378,7 +13342,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -12391,11 +13359,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -12573,7 +13549,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor05/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -12623,7 +13603,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -12636,11 +13620,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -12818,7 +13810,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor06/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -12868,7 +13864,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -12881,11 +13881,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -13063,7 +14071,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor07/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -13113,7 +14125,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -13126,11 +14142,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -13308,7 +14332,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor08/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -13358,7 +14386,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -13371,11 +14403,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -13553,7 +14593,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor09/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -13603,7 +14647,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -13616,11 +14664,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -13798,7 +14854,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor10/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -13848,7 +14908,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -13861,11 +14925,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -14043,7 +15115,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor11/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -14093,7 +15169,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -14106,11 +15186,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -14288,7 +15376,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor12/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -14338,7 +15430,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -14351,11 +15447,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -14533,7 +15637,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor13/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -14583,7 +15691,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -14596,11 +15708,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -14778,7 +15898,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor14/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -14828,7 +15952,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -14841,11 +15969,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -15023,7 +16159,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor15/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -15073,7 +16213,11 @@
                   "controlAddress": "/layerColor"
                 },
                 {
+<<<<<<< HEAD
                   "value": 0.5,
+=======
+                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -15086,11 +16230,19 @@
                       "controlAddress": "/length"
                     },
                     {
+<<<<<<< HEAD
                       "value": 9.0,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 0.5,
+=======
+                      "value": 0.0,
+                      "controlAddress": "/position"
+                    },
+                    {
+                      "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -15268,7 +16420,11 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
+<<<<<<< HEAD
                                   "value": 0.5,
+=======
+                                  "value": 0.0,
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/motor16/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -15332,6 +16488,7 @@
                 ]
               },
               "audioModule": "soundCard"
+<<<<<<< HEAD
             },
             {
               "parameters": [
@@ -15519,12 +16676,15 @@
                 }
               },
               "type": "Mapping"
+=======
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
             }
           ]
         },
         "cues": {
         },
         "editing": true
+<<<<<<< HEAD
       },
       {
         "parameters": [
@@ -15763,6 +16923,8 @@
         },
         "cues": {
         }
+=======
+>>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
       }
     ]
   }
