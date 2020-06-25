@@ -1,7 +1,0 @@
-[Desktop Entry]
-Comment=
-Terminal=false
-Name=Chataigne
-Exec=/home/pi/Chataigne.AppImage
-Type=Application
-Icon=gnome-panel-launcher

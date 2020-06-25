@@ -14,8 +14,6 @@ from adafruit_motor import servo
 
 import time
 
-import threading
-
 # Bus
 i2c = busio.I2C(SCL, SDA)
 try:
@@ -48,57 +46,19 @@ def printControls():
     for key, controlVal in allControls.items():
         print(key, " : ", controlVal.toString())
 
-def reset():
-    
-    for key, controlVal in allControls.items():
-            
-        # check if control exists
-        if key in allControls:
-            control = allControls.get(key)
-            print("Control {0} exists", control.toString(), " set value", format(0))
-            control.setValue(0);
+def send(addrControl, value):
 
-    else:
-        print("Control does not exist, check OSC Messages")
-        
-def setValue(addrControl, value):
-    
-    # check if control exists
-    if addrControl in allControls:
-        control = allControls.get(addrControl)
-        print("Control {0} exists", control.toString(), " set value", format(value))
-        control.setValue(value);
+    print("Ready to send Addr={0} Value= {1}", addrControl, value)
 
-    else:
-        print("Control does not exist, check OSC Messages")
-
-def send(addrControl):
-    
     # check if control exists
     if addrControl in allControls:
         control = allControls.get(addrControl)
         print("Control {0} exists, will send to board", control.toString())
-        control.send();
+
+        control.send(value);
 
     else:
         print("Control does not exist, check OSC Messages")
-
-def send():
-
-    for key, controlVal in allControls.items():
-        #print(key, " : ", controlVal.toString())
-        
-        # check if control exists
-        if key in allControls:
-            control = allControls.get(key)
-            control.send()
-            #print("Control {0} exists, will send to board", control.toString())
-#             mySendThread = threading.Thread(target=control.send())
-#             mySendThread.start()
-            
-
-        else:
-            print("Control does not exist, check OSC Messages")
 
     # Send to board
 
@@ -109,18 +69,13 @@ class I2CControl:
     def __init__(self, cardAddr, channelNr):
         self.cardAddr   = cardAddr
         self.channelNr  = channelNr
-        self.value      = 0.0
-        self.realValue  = 0.1
 
     # to string
     def toString(self):
         pass
 
-    def send(self):
+    def send(self, value):
         pass
-    
-    def setValue(self, value):
-        self.value = value;
 
 # -----------------------------------------------------------------------
 # Servo class
@@ -129,13 +84,9 @@ class Servo(I2CControl):
     def toString(self):
         return "Servo [" + format(hex(self.cardAddr)) + ":" + format(self.channelNr) + "]"
 
-    def send(self):
+    def send(self, value):
         # Control as a Servo
-        #print("Controlling servo [" + format(hex(self.cardAddr)) + ":" + format(self.channelNr) + "] with angle = " + str(value))
-        
-        if abs(self.realValue - self.value) < 0.1:
-            self.realValue = self.value
-            return
+        print("Controlling servo [" + format(hex(self.cardAddr)) + ":" + format(self.channelNr) + "] with angle = " + str(value))
         
         myCardAddr = hex(self.cardAddr)
         if(boards.get(myCardAddr)):
@@ -144,27 +95,40 @@ class Servo(I2CControl):
             #specific pulse range ---
             try:
                 
-                # Frequency
-                boards[myCardAddr].frequency = 50
-                
                 # initiate servo variable
                 theServo = servo.Servo(boards[myCardAddr].channels[self.channelNr], min_pulse=50, max_pulse=2500)
-
-                stepValue = 5
                 
-                if self.realValue < self.value:
-                    self.realValue += stepValue
+                newAngle = (value/270.0) * 180
+                stepAngle = 0.25
+                cmdAngle = theServo.angle
+                
+                # Check out of range values
+                if(cmdAngle < 0):
+                    cmdAngle = 0
+                if(cmdAngle > 180):
+                    cmdAngle = 180
+                
+                #print("floatValue= {0}".format(value), " Angle desired= {0}".format(newAngle), " Actual angle= {0}".format(cmdAngle))
+                
+                if newAngle > cmdAngle:
+                    # Increase
+                    while cmdAngle < newAngle:
+                        #print("passing command of angle {0}".format(cmdAngle), " Servo Angle={0}".format(theServo.angle), " Step is {0}".format(stepAngle))
+                        theServo.angle = cmdAngle
+                        cmdAngle += stepAngle
                         
-                elif self.realValue > self.value:
-                    self.realValue -= stepValue
-                
-                if abs(self.realValue - self.value) < stepValue:
-                    self.realValue = self.value
-                
-                # Finaly the good angle
-                #print("values= {0}".format(self.realValue) ,",{0}".format(self.value), " Actual angle= {0}".format(theServo.angle))
-                theServo.angle = self.realValue
+                elif newAngle < cmdAngle:
+                    # Decrease
+                    while cmdAngle > newAngle:
+                        #print("passing command of angle {0}".format(cmdAngle), " Servo Angle={0}".format(theServo.angle), " Step is {0}".format(stepAngle))
+                        theServo.angle = cmdAngle
+                        cmdAngle -= stepAngle
+                        
+                else:
+                    theServo.angle = newAngle
+                    print("no command of angle {0}".format(cmdAngle), " Servo Angle={0}".format(theServo.angle), " Step is {0}".format(stepAngle))
                     
+                theServo.angle = newAngle
 
             except Exception as e:
                 print(format(e))
@@ -184,29 +148,16 @@ class Motor(I2CControl):
     def toString(self):
         return "Motor [" + format(hex(self.cardAddr)) + ":" + format(self.channelNr) + "]"
 
-    def send(self):
-        
-        if abs(self.realValue - self.value) < 0.1:
-            self.realValue = self.value
-            return
-        
+    def send(self, floatValue):
+        print("Controlling motor [" + format(hex(self.cardAddr)) + ":" + format(self.channelNr) + "] with speed = " + str(floatValue))
         
         myCardAddr = hex(self.cardAddr)
         if(boards.get(myCardAddr)):
             
             #specific pulse range ---
             try:
-                # Frequency
-                boards[myCardAddr].frequency = 1600
-                
                 # simple multiplication
-                # Limite haute de courant
-                floatValue = self.value
                 boards[myCardAddr].channels[self.channelNr].duty_cycle = int(floatValue * float(0xFFFF))
-                print("Controlling motor [" + format(hex(self.cardAddr)) + ":" + format(self.channelNr) + "] with speed = " + str(self.value))
-        
-                self.realValue = self.value
-                
             
             except Exception as e:
                 print(format(e))
@@ -221,7 +172,51 @@ class Motor(I2CControl):
 # # -------------------------------------------------------------------
 # # Init all controls
 allControls = {
-    
+# Servo (Board 1)
+"B2":Servo(0x40, 0),
+"C2":Servo(0x40, 2),
+"F2":Servo(0x40, 3),
+"G2":Servo(0x40, 4),
+"B3":Servo(0x40, 5),
+"C3":Servo(0x40, 6),
+"D3":Servo(0x40, 7),
+"F3":Servo(0x40, 8),
+"G3":Servo(0x40, 9),
+"A4":Servo(0x40, 10),
+"B4":Servo(0x40, 11),
+"C4":Servo(0x40, 12),
+"D4":Servo(0x40, 13),
+"E4":Servo(0x40, 14),
+"F4":Servo(0x40, 15),
+
+# Servo (Board 2)
+"G4":Servo(0x41, 0),
+"H4":Servo(0x41, 2),
+"A5":Servo(0x41, 3),
+"B5":Servo(0x41, 4),
+"C5":Servo(0x41, 5),
+"D5":Servo(0x41, 6),
+"E5":Servo(0x41, 7),
+"F5":Servo(0x41, 8),
+"G5":Servo(0x41, 9),
+"H5":Servo(0x41, 10),
+"B6":Servo(0x41, 11),
+"C6":Servo(0x41, 12),
+"D6":Servo(0x41, 13),
+"E6":Servo(0x41, 14),
+"F6":Servo(0x41, 15),
+
+# Servo (Board 3)
+"G6":Servo(0x42, 0),
+"B7":Servo(0x42, 2),
+"C7":Servo(0x42, 3),
+"D7":Servo(0x42, 4),
+"E7":Servo(0x42, 5),
+"F7":Servo(0x42, 6),
+"G7":Servo(0x42, 7),
+"B8":Servo(0x42, 8),
+"C8":Servo(0x42, 9),
+
 # Motor (Board 4)
 "M00":Motor(0x43, 0),
 "M01":Motor(0x43, 2),
@@ -242,52 +237,6 @@ allControls = {
 # Motor (Board 5)
 "M15":Motor(0x44, 0),
 "M16":Motor(0x44, 2),
-"M17":Motor(0x44, 3),
-
-# Servo (Board 1)
-"B2":Servo(0x40, 0),
-"C2":Servo(0x40, 1),
-"F2":Servo(0x40, 2),
-"G2":Servo(0x40, 3),
-"B3":Servo(0x40, 4),
-"C3":Servo(0x40, 5),
-"D3":Servo(0x40, 6),
-"E3":Servo(0x40, 7),
-"F3":Servo(0x40, 8),
-"G3":Servo(0x40, 9),
-"A4":Servo(0x40, 10),
-"B4":Servo(0x40, 11),
-"C4":Servo(0x40, 12),
-"D4":Servo(0x40, 13),
-"E4":Servo(0x40, 14),
-"F4":Servo(0x40, 15),
-
-# Servo (Board 2)
-"G4":Servo(0x41, 0),
-"H4":Servo(0x41, 1),
-"A5":Servo(0x41, 2),
-"B5":Servo(0x41, 3),
-"C5":Servo(0x41, 4),
-"D5":Servo(0x41, 5),
-"E5":Servo(0x41, 6),
-"F5":Servo(0x41, 7),
-"G5":Servo(0x41, 8),
-"H5":Servo(0x41, 9),
-"B6":Servo(0x41, 10),
-"C6":Servo(0x41, 11),
-"D6":Servo(0x41, 12),
-"E6":Servo(0x41, 13),
-"F6":Servo(0x41, 14),
-"G6":Servo(0x41, 15),
-
-# Servo (Board 3),
-"B7":Servo(0x42, 0),
-"C7":Servo(0x42, 1),
-"D7":Servo(0x42, 2),
-"E7":Servo(0x42, 3),
-"F7":Servo(0x42, 4),
-"G7":Servo(0x42, 5),
-"D8":Servo(0x42, 6),
-"E8":Servo(0x42, 7)
+"M17":Motor(0x44, 3)
 
 }
