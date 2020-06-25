@@ -14,17 +14,20 @@ i2c_bus = busio.I2C(SCL, SDA)
 pca = PCA9685(i2c_bus, address=0x43)
 
 # Set the PWM frequency to 60hz.
-pca.frequency = 60
+pca.frequency = 1600
 
 # Set the PWM duty cycle for channel zero to 50%. duty_cycle is 16 bits to match other PWM objects
 # but the PCA9685 will only actually give 12 bits of resolution.
 while True:
-    pca.channels[0].duty_cycle = 0
+    #pca.channels[0].duty_cycle = 0
     
-    for intensity in range(0xffff, 50):
-        pca.channels[0].duty_cycle = intensity
+    # simple multiplication
+    floatValue = 1
+    pca.channels[0].duty_cycle = 0xFFFF
+    
+    #for intensity in range(0xffff, 50):
+        #pca.channels[0].duty_cycle = intensity
         
-    
-    for intensity in range(0xffff, 0, -50):
-        pca.channels[0].duty_cycle = intensity
+    #for intensity in range(0xffff, 0, -50):
+        #pca.channels[0].duty_cycle = intensity
 

@@ -9,6 +9,8 @@ from pythonosc.osc_server import AsyncIOOSCUDPServer
 import asyncio
 import I2CControl
 
+import time
+
 #setup Logging
 logging.basicConfig(
 filename='ReceiveOSCSendI2C.log',
@@ -27,6 +29,7 @@ logging.info('===========================================\n')
 def getControl(address, *args):
     # Vérification des paramètres
     if not len(args) == 2 or type(args[1]) is not float:
+        printf("args illegals")
         return
 
     number = args[0]
@@ -36,10 +39,11 @@ def getControl(address, *args):
     #print(addrElements)
 
     if(addrElements[-1] in {"servo","motor"}):
+        I2CControl.setValue(number, value)
         # SERVO ========================================================
         #I2CControl.send(number, value)
-        mySendThread = threading.Thread(target=I2CControl.send(number, value))
-        mySendThread.start()
+#         mySendThread = threading.Thread(target=I2CControl.send(number))
+#         mySendThread.start()
 
     else:
         # OTHER ========================================================
@@ -60,18 +64,23 @@ dispatcher.set_default_handler(default_handler)
 
 # Init controls
 I2CControl.printControls()
+I2CControl.reset()
+I2CControl.send()
 
 # Init server ------------------------------------
 try:
     ip = "192.168.0.101"
+    #ip = "127.0.0.1"
     port = 9000
     
+#     # Blocking SERVER --------------------------------------------
 #     server = BlockingOSCUDPServer((ip, port), dispatcher)
-#
+# 
 #     logging.info('Launch server OSC ' + ip + ":" + str(port))
-#
+# 
 #     print("Server started ++")
 #     server.serve_forever()  # Blocks forever
+#     # ------------------------------------------------------------
 
     async def loop():
         """Example main loop that only runs for 10 iterations before finishing"""
@@ -80,16 +89,25 @@ try:
 #             await asyncio.sleep(1)
         
         while True:
-            await asyncio.sleep(0)
+            #print("heartbeat")
+            I2CControl.send()
+            await asyncio.sleep(0.5)
 
 
     async def init_main():
+        
+        print("Waiting for IP address eventually")
+        time.sleep(10)
+        
         server = AsyncIOOSCUDPServer((ip, port), dispatcher, asyncio.get_event_loop())
         transport, protocol = await server.create_serve_endpoint()  # Create datagram endpoint and start serving
-
+        
+        print("Server started on {0}".format(ip), " port: {0}".format(port))
+        
         await loop()  # Enter main loop of program
-
+        
         transport.close()  # Clean up serve endpoint
+
 
     asyncio.run(init_main())
 
