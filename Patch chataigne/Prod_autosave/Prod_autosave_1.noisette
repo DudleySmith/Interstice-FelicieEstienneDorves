@@ -83,6 +83,12 @@
   "modules": {
     "items": [
       {
+        "parameters": [
+          {
+            "value": false,
+            "controlAddress": "/enabled"
+          }
+        ],
         "niceName": "OSC",
         "type": "OSC",
         "scripts": {
@@ -253,7 +259,7 @@
             "controlAddress": "/playAtLoad"
           },
           {
-            "value": 1169.339965820312,
+            "value": 3368.5,
             "controlAddress": "/totalTime"
           },
           {
@@ -261,11 +267,11 @@
             "controlAddress": "/loop"
           },
           {
-            "value": 0.15625,
+            "value": 0.0,
             "controlAddress": "/viewStartTime"
           },
           {
-            "value": 20.15625,
+            "value": 3368.5,
             "controlAddress": "/viewEndTime"
           }
         ],
@@ -277,6 +283,10 @@
             {
               "parameters": [
                 {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
                   "value": 40.0,
                   "controlAddress": "/listSize"
                 },
@@ -286,7 +296,7 @@
                   "controlAddress": "/uiHeight"
                 },
                 {
-                  "value": 0.0,
+                  "value": 0.004204713739454746,
                   "controlAddress": "/enveloppe"
                 },
                 {
@@ -301,15 +311,19 @@
                   {
                     "parameters": [
                       {
-                        "value": 0.1562497615814209,
+                        "value": 0.0,
                         "controlAddress": "/startTime"
+                      },
+                      {
+                        "value": 3419.859375,
+                        "controlAddress": "/length"
                       },
                       {
                         "value": false,
                         "controlAddress": "/isActive"
                       },
                       {
-                        "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
+                        "value": "/Users/interstice2019/02 Kailasha.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -335,6 +349,10 @@
             },
             {
               "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
                 {
                   "value": 43.0,
                   "controlAddress": "/listSize"
@@ -363,27 +381,6 @@
               "niceName": "Output 2",
               "type": "Audio",
               "clips": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-                        "value": 0.1562497615814209,
-                        "controlAddress": "/startTime"
-                      },
-                      {
-                        "value": false,
-                        "controlAddress": "/isActive"
-                      },
-                      {
-                        "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
-                        "controlAddress": "/filePath"
-                      }
-                    ],
-                    "niceName": "AudioClip",
-                    "editorIsCollapsed": true,
-                    "type": "AudioClip"
-                  }
-                ]
               },
               "channels": {
                 "parameters": [
@@ -401,6 +398,10 @@
             },
             {
               "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
                 {
                   "value": 38.0,
                   "controlAddress": "/listSize"
@@ -429,27 +430,6 @@
               "niceName": "Output 3",
               "type": "Audio",
               "clips": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-                        "value": 0.1562497615814209,
-                        "controlAddress": "/startTime"
-                      },
-                      {
-                        "value": false,
-                        "controlAddress": "/isActive"
-                      },
-                      {
-                        "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
-                        "controlAddress": "/filePath"
-                      }
-                    ],
-                    "niceName": "AudioClip",
-                    "editorIsCollapsed": true,
-                    "type": "AudioClip"
-                  }
-                ]
               },
               "channels": {
                 "parameters": [
@@ -467,6 +447,10 @@
             },
             {
               "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
                 {
                   "value": 40.0,
                   "controlAddress": "/listSize"
@@ -495,27 +479,6 @@
               "niceName": "Output 4",
               "type": "Audio",
               "clips": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-                        "value": 0.1562497615814209,
-                        "controlAddress": "/startTime"
-                      },
-                      {
-                        "value": false,
-                        "controlAddress": "/isActive"
-                      },
-                      {
-                        "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
-                        "controlAddress": "/filePath"
-                      }
-                    ],
-                    "niceName": "AudioClip",
-                    "editorIsCollapsed": true,
-                    "type": "AudioClip"
-                  }
-                ]
               },
               "channels": {
                 "parameters": [
@@ -533,6 +496,10 @@
             },
             {
               "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                },
                 {
                   "value": 41.0,
                   "controlAddress": "/listSize"
@@ -561,27 +528,6 @@
               "niceName": "Output 5",
               "type": "Audio",
               "clips": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-                        "value": 0.1562497615814209,
-                        "controlAddress": "/startTime"
-                      },
-                      {
-                        "value": false,
-                        "controlAddress": "/isActive"
-                      },
-                      {
-                        "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
-                        "controlAddress": "/filePath"
-                      }
-                    ],
-                    "niceName": "AudioClip",
-                    "editorIsCollapsed": true,
-                    "type": "AudioClip"
-                  }
-                ]
               },
               "channels": {
                 "parameters": [
@@ -635,7 +581,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -910,7 +856,7 @@
             {
               "parameters": [
                 {
-                  "value": true,
+                  "value": false,
                   "controlAddress": "/enabled"
                 },
                 {
@@ -945,7 +891,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -1127,7 +1073,7 @@
             {
               "parameters": [
                 {
-                  "value": true,
+                  "value": false,
                   "controlAddress": "/enabled"
                 },
                 {
@@ -1169,7 +1115,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -1511,7 +1457,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -1667,7 +1613,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -2005,7 +1951,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -2343,7 +2289,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -2681,7 +2627,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -3019,7 +2965,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -3357,7 +3303,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -3695,7 +3641,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -4033,7 +3979,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -4458,7 +4404,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -4796,7 +4742,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -5041,7 +4987,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -5286,7 +5232,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -5531,7 +5477,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -5776,7 +5722,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -6021,7 +5967,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -6266,7 +6212,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -6511,7 +6457,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -6756,7 +6702,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -7001,7 +6947,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -7246,7 +7192,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -7491,7 +7437,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -7736,7 +7682,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -7981,7 +7927,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -8226,7 +8172,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -8471,7 +8417,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -8716,7 +8662,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -8961,7 +8907,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -9206,7 +9152,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -9451,7 +9397,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -9696,7 +9642,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -9941,7 +9887,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -10186,7 +10132,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -10431,7 +10377,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -10676,7 +10622,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -10921,7 +10867,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -11166,7 +11112,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -11411,7 +11357,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -11656,7 +11602,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -11901,7 +11847,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -12146,7 +12092,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -12391,7 +12337,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -12636,7 +12582,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -12881,7 +12827,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -13126,7 +13072,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -13371,7 +13317,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -13616,7 +13562,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -13861,7 +13807,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -14106,7 +14052,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -14351,7 +14297,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -14596,7 +14542,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -14841,7 +14787,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -15086,7 +15032,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -15331,7 +15277,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -15530,62 +15476,6 @@
                 }
               },
               "type": "Mapping"
-            },
-            {
-              "parameters": [
-                {
-                  "value": 28.0,
-                  "controlAddress": "/listSize"
-                },
-                {
-                  "value": 60,
-                  "hexMode": false,
-                  "controlAddress": "/uiHeight"
-                }
-              ],
-              "niceName": "Trigger",
-              "type": "Trigger",
-              "triggers": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-                        "value": 5.00028657913208,
-                        "controlAddress": "/time"
-                      },
-                      {
-                        "value": 0.4833333194255829,
-                        "controlAddress": "/flagY"
-                      }
-                    ],
-                    "niceName": "Trigger",
-                    "type": "BaseItem",
-                    "consequences": {
-                      "items": [
-                        {
-                          "niceName": "Consequence",
-                          "type": "BaseItem",
-                          "commandModule": "sequences",
-                          "commandPath": "Playback",
-                          "commandType": "Play Sequence",
-                          "command": {
-                            "parameters": [
-                              {
-                                "value": "/sequences/sequence1",
-                                "controlAddress": "/target"
-                              },
-                              {
-                                "value": true,
-                                "controlAddress": "/playFromStart"
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
             }
           ]
         },

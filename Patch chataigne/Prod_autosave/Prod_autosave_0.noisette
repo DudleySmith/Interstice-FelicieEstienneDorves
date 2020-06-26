@@ -12,44 +12,26 @@
   "layout": {
     "mainLayout": {
       "type": 1,
-<<<<<<< HEAD
       "width": 1754,
       "height": 1003,
-=======
-      "width": 1327,
-      "height": 910,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
       "direction": 2,
       "shifters": [
         {
           "type": 1,
-<<<<<<< HEAD
           "width": 1754,
           "height": 1003,
-=======
-          "width": 1327,
-          "height": 910,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
           "direction": 1,
           "shifters": [
             {
               "type": 1,
               "width": 174,
-<<<<<<< HEAD
               "height": 1003,
-=======
-              "height": 910,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "direction": 2,
               "shifters": [
                 {
                   "type": 0,
                   "width": 174,
-<<<<<<< HEAD
                   "height": 669,
-=======
-                  "height": 622,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "currentContent": "Sequences",
                   "tabs": [
                     {
@@ -60,11 +42,7 @@
                 {
                   "type": 0,
                   "width": 174,
-<<<<<<< HEAD
                   "height": 328,
-=======
-                  "height": 282,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "currentContent": "Modules",
                   "tabs": [
                     {
@@ -76,13 +54,8 @@
             },
             {
               "type": 0,
-<<<<<<< HEAD
               "width": 1198,
               "height": 1003,
-=======
-              "width": 771,
-              "height": 910,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "currentContent": "Sequence Editor",
               "tabs": [
                 {
@@ -93,11 +66,7 @@
             {
               "type": 0,
               "width": 370,
-<<<<<<< HEAD
               "height": 1003,
-=======
-              "height": 910,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "currentContent": "Inspector",
               "tabs": [
                 {
@@ -114,6 +83,12 @@
   "modules": {
     "items": [
       {
+        "parameters": [
+          {
+            "value": false,
+            "controlAddress": "/enabled"
+          }
+        ],
         "niceName": "OSC",
         "type": "OSC",
         "scripts": {
@@ -134,24 +109,6 @@
                 {
                   "parameters": [
                     {
-<<<<<<< HEAD
-=======
-                      "value": "127.0.0.1",
-                      "controlAddress": "/remoteHost"
-                    },
-                    {
-                      "value": 9000,
-                      "hexMode": false,
-                      "controlAddress": "/remotePort"
-                    }
-                  ],
-                  "niceName": "Processing display",
-                  "type": "BaseItem"
-                },
-                {
-                  "parameters": [
-                    {
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "value": false,
                       "controlAddress": "/local"
                     },
@@ -169,7 +126,6 @@
             }
           }
         },
-<<<<<<< HEAD
         "templates": {
           "items": [
             {
@@ -248,8 +204,6 @@
             }
           ]
         },
-=======
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
         "values": {
         }
       },
@@ -273,10 +227,7 @@
             }
           }
         },
-<<<<<<< HEAD
         "audioSettings": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<DEVICESETUP deviceType=\"CoreAudio\" audioOutputDeviceName=\"UMC1820\" audioInputDeviceName=\"\"\r\n             audioDeviceRate=\"96000.0\" audioDeviceOutChans=\"11111\"/>\r\n",
-=======
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
         "analyzer": {
           "parameters": [
             {
@@ -308,7 +259,7 @@
             "controlAddress": "/playAtLoad"
           },
           {
-            "value": 1169.339965820312,
+            "value": 3368.5,
             "controlAddress": "/totalTime"
           },
           {
@@ -316,11 +267,11 @@
             "controlAddress": "/loop"
           },
           {
-            "value": 0.15625,
+            "value": 0.0,
             "controlAddress": "/viewStartTime"
           },
           {
-            "value": 20.15625,
+            "value": 3368.5,
             "controlAddress": "/viewEndTime"
           }
         ],
@@ -332,7 +283,10 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
                   "value": 40.0,
                   "controlAddress": "/listSize"
                 },
@@ -342,7 +296,7 @@
                   "controlAddress": "/uiHeight"
                 },
                 {
-                  "value": 0.0,
+                  "value": 0.004204713739454746,
                   "controlAddress": "/enveloppe"
                 },
                 {
@@ -357,15 +311,19 @@
                   {
                     "parameters": [
                       {
-                        "value": 0.1562497615814209,
+                        "value": 0.0,
                         "controlAddress": "/startTime"
+                      },
+                      {
+                        "value": 3419.859375,
+                        "controlAddress": "/length"
                       },
                       {
                         "value": false,
                         "controlAddress": "/isActive"
                       },
                       {
-                        "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
+                        "value": "/Users/interstice2019/02 Kailasha.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -391,6 +349,10 @@
             },
             {
               "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
                 {
                   "value": 43.0,
                   "controlAddress": "/listSize"
@@ -419,27 +381,6 @@
               "niceName": "Output 2",
               "type": "Audio",
               "clips": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-                        "value": 0.1562497615814209,
-                        "controlAddress": "/startTime"
-                      },
-                      {
-                        "value": false,
-                        "controlAddress": "/isActive"
-                      },
-                      {
-                        "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
-                        "controlAddress": "/filePath"
-                      }
-                    ],
-                    "niceName": "AudioClip",
-                    "editorIsCollapsed": true,
-                    "type": "AudioClip"
-                  }
-                ]
               },
               "channels": {
                 "parameters": [
@@ -457,6 +398,10 @@
             },
             {
               "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
                 {
                   "value": 38.0,
                   "controlAddress": "/listSize"
@@ -470,13 +415,6 @@
                 },
                 {
                   "value": 70,
-=======
-                  "value": 127.0,
-                  "controlAddress": "/listSize"
-                },
-                {
-                  "value": 159,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -489,42 +427,9 @@
                   "controlAddress": "/arm"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Output 3",
-=======
-              "niceName": "Audio",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "type": "Audio",
               "clips": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-<<<<<<< HEAD
-                        "value": 0.1562497615814209,
-=======
-                        "value": 0.1161699295043945,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
-                        "controlAddress": "/startTime"
-                      },
-                      {
-                        "value": false,
-                        "controlAddress": "/isActive"
-                      },
-                      {
-<<<<<<< HEAD
-                        "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
-=======
-                        "value": "/Users/sebastien_albert/Dropbox/2 - Projets/2020.02.25 Interstice/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
-                        "controlAddress": "/filePath"
-                      }
-                    ],
-                    "niceName": "AudioClip",
-                    "editorIsCollapsed": true,
-                    "type": "AudioClip"
-                  }
-                ]
               },
               "channels": {
                 "parameters": [
@@ -543,7 +448,10 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
                   "value": 40.0,
                   "controlAddress": "/listSize"
                 },
@@ -571,27 +479,6 @@
               "niceName": "Output 4",
               "type": "Audio",
               "clips": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-                        "value": 0.1562497615814209,
-                        "controlAddress": "/startTime"
-                      },
-                      {
-                        "value": false,
-                        "controlAddress": "/isActive"
-                      },
-                      {
-                        "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
-                        "controlAddress": "/filePath"
-                      }
-                    ],
-                    "niceName": "AudioClip",
-                    "editorIsCollapsed": true,
-                    "type": "AudioClip"
-                  }
-                ]
               },
               "channels": {
                 "parameters": [
@@ -609,6 +496,10 @@
             },
             {
               "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                },
                 {
                   "value": 41.0,
                   "controlAddress": "/listSize"
@@ -637,27 +528,6 @@
               "niceName": "Output 5",
               "type": "Audio",
               "clips": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-                        "value": 0.1562497615814209,
-                        "controlAddress": "/startTime"
-                      },
-                      {
-                        "value": false,
-                        "controlAddress": "/isActive"
-                      },
-                      {
-                        "value": "/Users/interstice2019/Desktop/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
-                        "controlAddress": "/filePath"
-                      }
-                    ],
-                    "niceName": "AudioClip",
-                    "editorIsCollapsed": true,
-                    "type": "AudioClip"
-                  }
-                ]
               },
               "channels": {
                 "parameters": [
@@ -677,9 +547,6 @@
               "parameters": [
                 {
                   "value": false,
-=======
-                  "value": true,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -705,11 +572,7 @@
                   "controlAddress": "/layerColor"
                 },
                 {
-<<<<<<< HEAD
                   "value": 1.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -718,23 +581,15 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
-=======
-                      "value": 0.0,
-                      "controlAddress": "/position"
-                    },
-                    {
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -862,19 +717,11 @@
                               "controlAddress": "/length"
                             },
                             {
-<<<<<<< HEAD
                               "value": 0.01111111138015985,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 0.006211341824382544,
-=======
-                              "value": 0.0,
-                              "controlAddress": "/position"
-                            },
-                            {
-                              "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -992,11 +839,7 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
-<<<<<<< HEAD
                                   "value": 0.5590207576751709,
-=======
-                                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoB2/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -1013,7 +856,7 @@
             {
               "parameters": [
                 {
-                  "value": true,
+                  "value": false,
                   "controlAddress": "/enabled"
                 },
                 {
@@ -1021,19 +864,11 @@
                   "controlAddress": "/miniMode"
                 },
                 {
-<<<<<<< HEAD
                   "value": 101.0,
                   "controlAddress": "/listSize"
                 },
                 {
                   "value": 133,
-=======
-                  "value": 0.0,
-                  "controlAddress": "/listSize"
-                },
-                {
-                  "value": 32,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -1056,7 +891,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -1082,7 +917,6 @@
                       "controlAddress": "/range",
                       "enabled": true
                     }
-<<<<<<< HEAD
                   ],
                   "items": [
                     {
@@ -1151,8 +985,6 @@
                       },
                       "type": "Key"
                     }
-=======
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   ]
                 },
                 "recorder": {
@@ -1184,7 +1016,6 @@
                   "filters": {
                   },
                   "outputs": {
-<<<<<<< HEAD
                     "items": [
                       {
                         "niceName": "MappingOutput",
@@ -1234,9 +1065,6 @@
                         }
                       }
                     ]
-=======
-                    "editorIsCollapsed": true
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   }
                 }
               },
@@ -1245,7 +1073,7 @@
             {
               "parameters": [
                 {
-                  "value": true,
+                  "value": false,
                   "controlAddress": "/enabled"
                 },
                 {
@@ -1253,11 +1081,7 @@
                   "controlAddress": "/miniMode"
                 },
                 {
-<<<<<<< HEAD
                   "value": 88.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/listSize"
                 },
                 {
@@ -1268,11 +1092,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-<<<<<<< HEAD
                   "value": 120,
-=======
-                  "value": 32,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -1295,7 +1115,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -1415,13 +1235,10 @@
                 "recorder": {
                   "parameters": [
                     {
-<<<<<<< HEAD
                       "value": true,
                       "controlAddress": "/arm"
                     },
                     {
-=======
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "value": false,
                       "controlAddress": "/isRecording"
                     }
@@ -1598,11 +1415,7 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": false,
-=======
-                  "value": true,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -1644,15 +1457,11 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
-=======
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/position"
                     },
                     {
@@ -1705,7 +1514,6 @@
                   "filters": {
                   },
                   "outputs": {
-<<<<<<< HEAD
                     "items": [
                       {
                         "niceName": "MappingOutput",
@@ -1755,8 +1563,6 @@
                         }
                       }
                     ]
-=======
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   }
                 }
               },
@@ -1765,11 +1571,7 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": false,
-=======
-                  "value": true,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -1802,11 +1604,7 @@
                   "controlAddress": "/layerColor"
                 },
                 {
-<<<<<<< HEAD
                   "value": 1.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -1815,23 +1613,15 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
-=======
-                      "value": 0.0,
-                      "controlAddress": "/position"
-                    },
-                    {
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -1980,19 +1770,11 @@
                               "controlAddress": "/length"
                             },
                             {
-<<<<<<< HEAD
                               "value": 0.01111111138015985,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 0.006309466436505318,
-=======
-                              "value": 0.0,
-                              "controlAddress": "/position"
-                            },
-                            {
-                              "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -2025,25 +1807,15 @@
                                   "parameters": [
                                     {
                                       "value": [
-<<<<<<< HEAD
                                         0.2924528419971466,
                                         0.1614583432674408
-=======
-                                        0.2861635088920593,
-                                        0.1770833432674408
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                       ],
                                       "controlAddress": "/anchor1"
                                     },
                                     {
                                       "value": [
-<<<<<<< HEAD
                                         -0.2075471580028534,
                                         -0.3385416567325592
-=======
-                                        -0.2138364911079407,
-                                        -0.3229166567325592
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                       ],
                                       "controlAddress": "/anchor2"
                                     }
@@ -2120,11 +1892,7 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
-<<<<<<< HEAD
                                   "value": 0.5678519606590271,
-=======
-                                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoF2/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -2141,11 +1909,7 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": false,
-=======
-                  "value": true,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -2178,11 +1942,7 @@
                   "controlAddress": "/layerColor"
                 },
                 {
-<<<<<<< HEAD
                   "value": 1.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -2191,23 +1951,15 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
-=======
-                      "value": 0.0,
-                      "controlAddress": "/position"
-                    },
-                    {
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -2356,19 +2108,11 @@
                               "controlAddress": "/length"
                             },
                             {
-<<<<<<< HEAD
                               "value": 0.01111111138015985,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 0.007027652114629745,
-=======
-                              "value": 0.0,
-                              "controlAddress": "/position"
-                            },
-                            {
-                              "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -2486,11 +2230,7 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
-<<<<<<< HEAD
                                   "value": 0.6324886679649353,
-=======
-                                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoG2/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -2507,11 +2247,7 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": false,
-=======
-                  "value": true,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -2544,11 +2280,7 @@
                   "controlAddress": "/layerColor"
                 },
                 {
-<<<<<<< HEAD
                   "value": 1.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -2557,23 +2289,15 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
-=======
-                      "value": 0.0,
-                      "controlAddress": "/position"
-                    },
-                    {
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -2722,19 +2446,11 @@
                               "controlAddress": "/length"
                             },
                             {
-<<<<<<< HEAD
                               "value": 0.01111111138015985,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 0.007096622604876757,
-=======
-                              "value": 0.0,
-                              "controlAddress": "/position"
-                            },
-                            {
-                              "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -2852,11 +2568,7 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
-<<<<<<< HEAD
                                   "value": 0.638696014881134,
-=======
-                                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoB3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -2873,11 +2585,7 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": false,
-=======
-                  "value": true,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -2910,11 +2618,7 @@
                   "controlAddress": "/layerColor"
                 },
                 {
-<<<<<<< HEAD
                   "value": 1.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -2923,23 +2627,15 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
-=======
-                      "value": 0.0,
-                      "controlAddress": "/position"
-                    },
-                    {
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -3088,19 +2784,11 @@
                               "controlAddress": "/length"
                             },
                             {
-<<<<<<< HEAD
                               "value": 0.01111111138015985,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 0.006918255239725113,
-=======
-                              "value": 0.0,
-                              "controlAddress": "/position"
-                            },
-                            {
-                              "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -3218,11 +2906,7 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
-<<<<<<< HEAD
                                   "value": 0.622642993927002,
-=======
-                                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoC3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -3239,11 +2923,7 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": false,
-=======
-                  "value": true,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/enabled"
                 },
                 {
@@ -3276,11 +2956,7 @@
                   "controlAddress": "/layerColor"
                 },
                 {
-<<<<<<< HEAD
                   "value": 1.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -3289,23 +2965,15 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
-=======
-                      "value": 0.0,
-                      "controlAddress": "/position"
-                    },
-                    {
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -3454,19 +3122,11 @@
                               "controlAddress": "/length"
                             },
                             {
-<<<<<<< HEAD
                               "value": 0.01111111138015985,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 0.0007832926930859685,
-=======
-                              "value": 0.0,
-                              "controlAddress": "/position"
-                            },
-                            {
-                              "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -3584,11 +3244,7 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
-<<<<<<< HEAD
                                   "value": 0.0704963430762291,
-=======
-                                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoD3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -3605,19 +3261,11 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": false,
                   "controlAddress": "/enabled"
                 },
                 {
                   "value": false,
-=======
-                  "value": true,
-                  "controlAddress": "/enabled"
-                },
-                {
-                  "value": true,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/miniMode"
                 },
                 {
@@ -3632,11 +3280,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-<<<<<<< HEAD
                   "value": 32,
-=======
-                  "value": 22,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -3650,11 +3294,7 @@
                   "controlAddress": "/layerColor"
                 },
                 {
-<<<<<<< HEAD
                   "value": 1.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -3663,23 +3303,15 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
-=======
-                      "value": 0.0,
-                      "controlAddress": "/position"
-                    },
-                    {
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -3828,19 +3460,11 @@
                               "controlAddress": "/length"
                             },
                             {
-<<<<<<< HEAD
                               "value": 0.01111111138015985,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 0.0007832926930859685,
-=======
-                              "value": 0.0,
-                              "controlAddress": "/position"
-                            },
-                            {
-                              "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -3958,11 +3582,7 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
-<<<<<<< HEAD
                                   "value": 0.0704963430762291,
-=======
-                                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoE3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -3979,19 +3599,11 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": false,
                   "controlAddress": "/enabled"
                 },
                 {
                   "value": false,
-=======
-                  "value": true,
-                  "controlAddress": "/enabled"
-                },
-                {
-                  "value": true,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/miniMode"
                 },
                 {
@@ -4006,11 +3618,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-<<<<<<< HEAD
                   "value": 32,
-=======
-                  "value": 22,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -4024,11 +3632,7 @@
                   "controlAddress": "/layerColor"
                 },
                 {
-<<<<<<< HEAD
                   "value": 1.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -4037,23 +3641,15 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
-=======
-                      "value": 0.0,
-                      "controlAddress": "/position"
-                    },
-                    {
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -4202,19 +3798,11 @@
                               "controlAddress": "/length"
                             },
                             {
-<<<<<<< HEAD
                               "value": 0.01111111138015985,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 0.007337916642427444,
-=======
-                              "value": 0.0,
-                              "controlAddress": "/position"
-                            },
-                            {
-                              "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -4332,11 +3920,7 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
-<<<<<<< HEAD
                                   "value": 0.6604124903678894,
-=======
-                                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoF3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -4353,19 +3937,11 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": false,
                   "controlAddress": "/enabled"
                 },
                 {
                   "value": false,
-=======
-                  "value": true,
-                  "controlAddress": "/enabled"
-                },
-                {
-                  "value": true,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/miniMode"
                 },
                 {
@@ -4380,11 +3956,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-<<<<<<< HEAD
                   "value": 32,
-=======
-                  "value": 22,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -4398,11 +3970,7 @@
                   "controlAddress": "/layerColor"
                 },
                 {
-<<<<<<< HEAD
                   "value": 1.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -4411,23 +3979,15 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
-=======
-                      "value": 0.0,
-                      "controlAddress": "/position"
-                    },
-                    {
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -4663,19 +4223,11 @@
                               "controlAddress": "/length"
                             },
                             {
-<<<<<<< HEAD
                               "value": 0.01111111138015985,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 0.007337916642427444,
-=======
-                              "value": 0.0,
-                              "controlAddress": "/position"
-                            },
-                            {
-                              "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -4793,11 +4345,7 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
-<<<<<<< HEAD
                                   "value": 0.6604124903678894,
-=======
-                                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoG3/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -4814,7 +4362,6 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": false,
                   "controlAddress": "/enabled"
                 },
@@ -4824,17 +4371,6 @@
                 },
                 {
                   "value": 26.0,
-=======
-                  "value": true,
-                  "controlAddress": "/enabled"
-                },
-                {
-                  "value": true,
-                  "controlAddress": "/miniMode"
-                },
-                {
-                  "value": 92.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/listSize"
                 },
                 {
@@ -4845,11 +4381,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-<<<<<<< HEAD
                   "value": 58,
-=======
-                  "value": 22,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -4863,11 +4395,7 @@
                   "controlAddress": "/layerColor"
                 },
                 {
-<<<<<<< HEAD
                   "value": 1.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/value"
                 }
               ],
@@ -4876,23 +4404,15 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
-<<<<<<< HEAD
                       "value": 17.8799991607666,
                       "controlAddress": "/position"
                     },
                     {
                       "value": 90.0,
-=======
-                      "value": 0.0,
-                      "controlAddress": "/position"
-                    },
-                    {
-                      "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/value"
                     },
                     {
@@ -5041,19 +4561,11 @@
                               "controlAddress": "/length"
                             },
                             {
-<<<<<<< HEAD
                               "value": 0.01111111138015985,
                               "controlAddress": "/position"
                             },
                             {
                               "value": 0.007337916642427444,
-=======
-                              "value": 0.0,
-                              "controlAddress": "/position"
-                            },
-                            {
-                              "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                               "controlAddress": "/value"
                             },
                             {
@@ -5171,11 +4683,7 @@
                                 "niceName": "#2",
                                 "type": "Float",
                                 "param": {
-<<<<<<< HEAD
                                   "value": 0.6604124903678894,
-=======
-                                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                   "controlAddress": "/sequences/sequence/layers/servoA4/mapping/outputs/mappingOutput/command/arguments/_2/_2"
                                 }
                               }
@@ -5234,7 +4742,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -5479,7 +4987,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -5724,7 +5232,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -5969,7 +5477,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -6214,7 +5722,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -6459,7 +5967,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -6704,7 +6212,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -6949,7 +6457,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -7194,7 +6702,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -7439,7 +6947,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -7684,7 +7192,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -7929,7 +7437,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -8174,7 +7682,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -8419,7 +7927,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -8664,7 +8172,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -8909,7 +8417,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -9154,7 +8662,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -9399,7 +8907,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -9644,7 +9152,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -9889,7 +9397,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -10134,7 +9642,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -10379,7 +9887,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -10624,7 +10132,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -10869,7 +10377,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -11114,7 +10622,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -11359,7 +10867,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -11604,7 +11112,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -11849,7 +11357,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -12094,7 +11602,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -12339,7 +11847,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -12370,7 +11878,6 @@
                     {
                       "parameters": [
                         {
-<<<<<<< HEAD
                           "value": [
                             200.0,
                             200.0
@@ -12585,7 +12092,7 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -12619,11 +12126,6 @@
                           "value": [
                             220.0,
                             220.0
-=======
-                          "value": [
-                            200.0,
-                            200.0
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                           ],
                           "controlAddress": "/viewUIPosition"
                         },
@@ -12651,13 +12153,8 @@
                       "parameters": [
                         {
                           "value": [
-<<<<<<< HEAD
                             220.0,
                             220.0
-=======
-                            200.0,
-                            200.0
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                           ],
                           "controlAddress": "/viewUIPosition"
                         },
@@ -12685,13 +12182,8 @@
                       "parameters": [
                         {
                           "value": [
-<<<<<<< HEAD
                             220.0,
                             220.0
-=======
-                            200.0,
-                            200.0
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                           ],
                           "controlAddress": "/viewUIPosition"
                         },
@@ -12772,13 +12264,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M03",
                                   "controlAddress": "/sequences/sequence/layers/motor03/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M02",
-                                  "controlAddress": "/sequences/sequence/layers/motor02/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -12792,11 +12279,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor03/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor02/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -12849,16 +12332,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 04",
-=======
-              "niceName": "Motor 03",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -13030,13 +12509,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M04",
                                   "controlAddress": "/sequences/sequence/layers/motor04/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M03",
-                                  "controlAddress": "/sequences/sequence/layers/motor03/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -13050,11 +12524,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor04/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor03/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -13107,16 +12577,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 05",
-=======
-              "niceName": "Motor 04",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -13288,13 +12754,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M05",
                                   "controlAddress": "/sequences/sequence/layers/motor05/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M04",
-                                  "controlAddress": "/sequences/sequence/layers/motor04/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -13308,11 +12769,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor05/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor04/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -13365,16 +12822,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 06",
-=======
-              "niceName": "Motor 05",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -13546,13 +12999,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M06",
                                   "controlAddress": "/sequences/sequence/layers/motor06/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M05",
-                                  "controlAddress": "/sequences/sequence/layers/motor05/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -13566,11 +13014,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor06/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor05/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -13623,16 +13067,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 07",
-=======
-              "niceName": "Motor 06",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -13804,13 +13244,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M07",
                                   "controlAddress": "/sequences/sequence/layers/motor07/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M06",
-                                  "controlAddress": "/sequences/sequence/layers/motor06/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -13824,11 +13259,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor07/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor06/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -13881,16 +13312,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 08",
-=======
-              "niceName": "Motor 07",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -14062,13 +13489,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M08",
                                   "controlAddress": "/sequences/sequence/layers/motor08/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M07",
-                                  "controlAddress": "/sequences/sequence/layers/motor07/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -14082,11 +13504,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor08/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor07/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -14139,16 +13557,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 09",
-=======
-              "niceName": "Motor 08",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -14320,13 +13734,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M09",
                                   "controlAddress": "/sequences/sequence/layers/motor09/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M08",
-                                  "controlAddress": "/sequences/sequence/layers/motor08/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -14340,11 +13749,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor09/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor08/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -14397,16 +13802,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 10",
-=======
-              "niceName": "Motor 09",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -14578,13 +13979,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M10",
                                   "controlAddress": "/sequences/sequence/layers/motor10/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M09",
-                                  "controlAddress": "/sequences/sequence/layers/motor09/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -14598,11 +13994,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor10/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor09/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -14655,16 +14047,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 11",
-=======
-              "niceName": "Motor 10",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -14836,13 +14224,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M11",
                                   "controlAddress": "/sequences/sequence/layers/motor11/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M10",
-                                  "controlAddress": "/sequences/sequence/layers/motor10/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -14856,11 +14239,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor11/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor10/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -14884,11 +14263,7 @@
                   "controlAddress": "/miniMode"
                 },
                 {
-<<<<<<< HEAD
                   "value": 2.0,
-=======
-                  "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/listSize"
                 },
                 {
@@ -14917,16 +14292,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 12",
-=======
-              "niceName": "Motor 11",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -15098,13 +14469,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M12",
                                   "controlAddress": "/sequences/sequence/layers/motor12/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M11",
-                                  "controlAddress": "/sequences/sequence/layers/motor11/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -15118,11 +14484,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor12/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor11/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -15146,11 +14508,7 @@
                   "controlAddress": "/miniMode"
                 },
                 {
-<<<<<<< HEAD
                   "value": 0.0,
-=======
-                  "value": 2.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "controlAddress": "/listSize"
                 },
                 {
@@ -15179,16 +14537,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 13",
-=======
-              "niceName": "Motor 12",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -15360,13 +14714,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M13",
                                   "controlAddress": "/sequences/sequence/layers/motor13/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M12",
-                                  "controlAddress": "/sequences/sequence/layers/motor12/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -15380,11 +14729,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor13/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor12/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -15437,16 +14782,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 14",
-=======
-              "niceName": "Motor 13",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -15618,13 +14959,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M14",
                                   "controlAddress": "/sequences/sequence/layers/motor14/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M13",
-                                  "controlAddress": "/sequences/sequence/layers/motor13/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -15638,11 +14974,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor14/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor13/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -15695,16 +15027,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 15",
-=======
-              "niceName": "Motor 14",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -15876,13 +15204,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M15",
                                   "controlAddress": "/sequences/sequence/layers/motor15/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M14",
-                                  "controlAddress": "/sequences/sequence/layers/motor14/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -15896,11 +15219,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor15/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor14/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -15953,16 +15272,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Motor 16",
-=======
-              "niceName": "Motor 15",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-                      "value": 1169.339965820312,
+                      "value": 3368.5,
                       "controlAddress": "/length"
                     },
                     {
@@ -16134,13 +15449,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M16",
                                   "controlAddress": "/sequences/sequence/layers/motor16/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M15",
-                                  "controlAddress": "/sequences/sequence/layers/motor15/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -16154,11 +15464,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence/layers/motor16/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor15/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -16170,63 +15476,6 @@
                 }
               },
               "type": "Mapping"
-            },
-            {
-              "parameters": [
-                {
-<<<<<<< HEAD
-                  "value": 28.0,
-                  "controlAddress": "/listSize"
-                },
-                {
-                  "value": 60,
-                  "hexMode": false,
-                  "controlAddress": "/uiHeight"
-                }
-              ],
-              "niceName": "Trigger",
-              "type": "Trigger",
-              "triggers": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-                        "value": 5.00028657913208,
-                        "controlAddress": "/time"
-                      },
-                      {
-                        "value": 0.4833333194255829,
-                        "controlAddress": "/flagY"
-                      }
-                    ],
-                    "niceName": "Trigger",
-                    "type": "BaseItem",
-                    "consequences": {
-                      "items": [
-                        {
-                          "niceName": "Consequence",
-                          "type": "BaseItem",
-                          "commandModule": "sequences",
-                          "commandPath": "Playback",
-                          "commandType": "Play Sequence",
-                          "command": {
-                            "parameters": [
-                              {
-                                "value": "/sequences/sequence1",
-                                "controlAddress": "/target"
-                              },
-                              {
-                                "value": true,
-                                "controlAddress": "/playFromStart"
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
             }
           ]
         },
@@ -16253,28 +15502,6 @@
                 },
                 {
                   "value": 120,
-=======
-                  "value": true,
-                  "controlAddress": "/enabled"
-                },
-                {
-                  "value": true,
-                  "controlAddress": "/miniMode"
-                },
-                {
-                  "value": 0.0,
-                  "controlAddress": "/listSize"
-                },
-                {
-                  "value": [
-                    20.0,
-                    20.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": 22,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                   "hexMode": false,
                   "controlAddress": "/uiHeight"
                 },
@@ -16292,20 +15519,12 @@
                   "controlAddress": "/value"
                 }
               ],
-<<<<<<< HEAD
               "niceName": "Mapping",
-=======
-              "niceName": "Motor 16",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
               "containers": {
                 "automation": {
                   "parameters": [
                     {
-<<<<<<< HEAD
                       "value": 30.0,
-=======
-                      "value": 1169.339965820312,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "controlAddress": "/length"
                     },
                     {
@@ -16336,18 +15555,7 @@
                     {
                       "parameters": [
                         {
-<<<<<<< HEAD
                           "value": 0.08241754770278931,
-=======
-                          "value": [
-                            220.0,
-                            220.0
-                          ],
-                          "controlAddress": "/viewUIPosition"
-                        },
-                        {
-                          "value": 0.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                           "controlAddress": "/position"
                         },
                         {
@@ -16369,26 +15577,11 @@
                     {
                       "parameters": [
                         {
-<<<<<<< HEAD
                           "value": 1.675824284553528,
                           "controlAddress": "/position"
                         },
                         {
                           "value": 1.0,
-=======
-                          "value": [
-                            220.0,
-                            220.0
-                          ],
-                          "controlAddress": "/viewUIPosition"
-                        },
-                        {
-                          "value": 7.505109786987305,
-                          "controlAddress": "/position"
-                        },
-                        {
-                          "value": 0.5,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                           "controlAddress": "/value"
                         },
                         {
@@ -16406,26 +15599,11 @@
                     {
                       "parameters": [
                         {
-<<<<<<< HEAD
                           "value": 3.626373529434204,
                           "controlAddress": "/position"
                         },
                         {
                           "value": 0.0,
-=======
-                          "value": [
-                            220.0,
-                            220.0
-                          ],
-                          "controlAddress": "/viewUIPosition"
-                        },
-                        {
-                          "value": 15.18209171295166,
-                          "controlAddress": "/position"
-                        },
-                        {
-                          "value": 1.0,
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                           "controlAddress": "/value"
                         },
                         {
@@ -16433,11 +15611,7 @@
                           "controlAddress": "/easingType"
                         }
                       ],
-<<<<<<< HEAD
                       "niceName": "Key 3",
-=======
-                      "niceName": "Key 2",
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                       "containers": {
                         "easing": {
                         }
@@ -16501,13 +15675,8 @@
                                 "niceName": "#1",
                                 "type": "String",
                                 "param": {
-<<<<<<< HEAD
                                   "value": "M00",
                                   "controlAddress": "/sequences/sequence1/layers/mapping/mapping/outputs/mappingOutput/command/arguments/_1/_1"
-=======
-                                  "value": "M16",
-                                  "controlAddress": "/sequences/sequence/layers/motor16/mapping/outputs/mappingOutput/command/arguments/_1/_1"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               },
                               {
@@ -16521,11 +15690,7 @@
                                 "type": "Float",
                                 "param": {
                                   "value": 0.0,
-<<<<<<< HEAD
                                   "controlAddress": "/sequences/sequence1/layers/mapping/mapping/outputs/mappingOutput/command/arguments/_2/_2"
-=======
-                                  "controlAddress": "/sequences/sequence/layers/motor16/mapping/outputs/mappingOutput/command/arguments/_2/_2"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
                                 }
                               }
                             ]
@@ -16541,7 +15706,6 @@
             {
               "parameters": [
                 {
-<<<<<<< HEAD
                   "value": 28.0,
                   "controlAddress": "/listSize"
                 },
@@ -16555,65 +15719,11 @@
               "type": "Trigger",
               "triggers": {
               }
-=======
-                  "value": 48.0,
-                  "controlAddress": "/listSize"
-                },
-                {
-                  "value": 80,
-                  "hexMode": false,
-                  "controlAddress": "/uiHeight"
-                },
-                {
-                  "value": 0.0,
-                  "controlAddress": "/enveloppe"
-                }
-              ],
-              "niceName": "Audio 1",
-              "type": "Audio",
-              "clips": {
-                "items": [
-                  {
-                    "parameters": [
-                      {
-                        "value": false,
-                        "controlAddress": "/isActive"
-                      },
-                      {
-                        "value": "/Users/sebastien_albert/Dropbox/2 - Projets/2020.02.25 Interstice/Interstice-FelicieEstienneDorves/Audio/02 Kailasha.wav",
-                        "controlAddress": "/filePath"
-                      }
-                    ],
-                    "niceName": "AudioClip",
-                    "editorIsCollapsed": true,
-                    "type": "AudioClip"
-                  }
-                ]
-              },
-              "channels": {
-                "parameters": [
-                  {
-                    "value": true,
-                    "controlAddress": "/channelOutLeft"
-                  },
-                  {
-                    "value": true,
-                    "controlAddress": "/channelOutRight"
-                  }
-                ]
-              },
-              "audioModule": "soundCard"
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
             }
           ]
         },
         "cues": {
-<<<<<<< HEAD
         }
-=======
-        },
-        "editing": true
->>>>>>> ae7ceea621269ec5a8b8510fb638585df7eed4ee
       }
     ]
   }
